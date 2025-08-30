@@ -5,7 +5,6 @@ from .models import Tarefa
 import json
 from datetime import datetime
 from django.http import JsonResponse
-from django.http import HttpResponse
 # Create your views here.
 
 def adicionar_tarefas(request):
